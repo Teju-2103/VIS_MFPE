@@ -1,0 +1,100 @@
+h2{
+    color: #263341;
+    margin-Top: 35px;
+}
+
+.card-group{
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    margin-right: 6rem;
+    margin-left: 10rem;
+}
+
+.card-grid {
+margin-top: -15px;
+    padding: 7px 7px 7px 7px !important;
+    height: auto !important;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+    margin-right: 5rem;
+    margin-bottom: 2rem;
+    width:35%;
+    height:10%;
+    align-items: stretch;
+    display: grid;
+    object-fit: cover;
+    box-shadow: 1px 1px 1px 1px white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+#rightcard{
+    margin-left: 14%;
+}
+
+.card-grid:hover{
+    background-color: #263341;
+    text-decoration-color: aliceblue;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 10;
+}
+
+.card-text{
+    text-decoration: none;
+    font-size: 20px;
+    color: #9991ac;
+    text-decoration: none #4d4d4d;
+    text-align: center;
+}
+
+.card-text:hover{
+    color: antiquewhite;
+    text-decoration: none #4d4d4d;
+}
+
+.card-body {
+    text-align: center;
+    font-size: large;
+}
+
+body{
+    background: beige;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(beige);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(beige); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.form{
+    background-color: #263341;
+    border-radius: 5px;
+    width: 550px;
+    margin: 20px auto;
+    padding: 20px;
+    /* height: 600px; */
+}
+
+.form-body{
+    text-align: left;
+    padding: 20px 10px;
+    width: 50%;
+    background-color: #263341;
+    
+    color:white;
+    font-weight: bold;
+}
+
+.form-body > *{
+    padding: 5px;
+}
+
+.form__label{
+    width: 40%;
+}
+
+.form_input{
+    width: 60%;
+}
+
+.footer{
+    text-align: center;
+}

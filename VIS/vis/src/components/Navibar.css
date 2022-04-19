@@ -1,0 +1,9 @@
+.color-nav{
+background-color: #263341;
+display: block;
+}
+
+.me-auto{
+    justify-content: end;
+    margin-left: 55vw;
+}

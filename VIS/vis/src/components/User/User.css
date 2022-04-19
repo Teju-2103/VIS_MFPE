@@ -1,0 +1,15 @@
+.row2{
+    width: 50%;
+    justify-content: center;
+}
+
+.conatiner2{
+    width: 50%;
+    margin-left: 60px;
+    margin-top: 50px;
+    background-color: #263341;
+    text-align: center;
+    color:white;
+    font-weight: bold;
+    /* text-white text-center col-9 font-weight-bold */
+}
